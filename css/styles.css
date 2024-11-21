@@ -11732,3 +11732,424 @@ html {
     left: -2vw;
   }
 }
+
+
+
+
+/* Estilo para la línea separadora */
+/* Línea separadora debajo del texto de la marca */
+.separator-line {
+    width: 100%; /* Ocupa todo el ancho del contenedor del texto */
+    height: 4px; /* Grosor de la línea */
+    background: linear-gradient(90deg, #1E3A8A, #3B82F6); /* Gradiente con los colores del proyecto */
+    margin-top: 5px; /* Espaciado entre el texto y la línea */
+}
+
+
+
+
+
+
+
+/* Clases específicas para la sección "Nosotros" */
+.about-us {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Contenedor del carrusel de "Nosotros" */
+.about-us .carousel-container {
+  position: relative;
+  max-width: 500px;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+/* Carrusel en "Nosotros" */
+.about-us .carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+}
+
+/* Perfil individual */
+.about-us .profile {
+  flex: 0 0 100%;
+  text-align: center;
+}
+
+/* Imagen del integrante */
+.about-us .profile img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  cursor: pointer;
+  transform: translateY(-30%);
+  transition: transform 0.3s ease;
+}
+
+/* Efecto de hover en la imagen */
+.about-us .profile img:hover {
+  transform: scale(1.1);
+}
+
+/* Título del integrante */
+.about-us .profile h3 {
+  margin-top: 15px;
+  font-size: 1.5em;
+  color: #333;
+}
+
+/* Descripción del integrante */
+.about-us .profile p {
+  font-size: 1.1em;
+  color: #666;
+  margin-top: 10px;
+}
+
+/* Flechas */
+.about-us .arrow {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 2em;
+  transition: background-color 0.3s ease;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-290%);
+  z-index: 10;
+}
+
+/* Efecto hover en las flechas */
+.about-us .arrow:hover {
+  background-color: #555;
+}
+
+/* Posición de las flechas */
+.about-us .left-arrow {
+  left: 10px;
+}
+
+.about-us .right-arrow {
+  right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.portfolio-carousel {
+  position: relative;
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.portfolio-carousel-images {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.portfolio-carousel-image {
+  width: 100%;
+  display: block;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+
+
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.carousel {
+  display: flex;
+  gap: 20px;
+  transition: transform 0.5s ease-in-out;
+}
+.profile {
+  flex: 0 0 auto;
+  text-align: center;
+  width: 200px;
+}
+.profile img {
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.profile img:hover {
+  transform: scale(1.1);
+}
+.arrow {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #3B82F6;
+  z-index: 2;
+}
+.left-arrow {
+  left: 10px;
+}
+.right-arrow {
+  right: 10px;
+}
+
+
+
+
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.carrusel {
+  position: relative;
+  width: 80%; /* Ajusta el tamaño del carrusel */
+  max-width: 600px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carrusel-contenedor {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.imagen {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  z-index: 1;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+
+
+
+
+
+
+.text-gradient {
+  background: linear-gradient(to right, #3B82F6, #1E3A8A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navbar-brand {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  letter-spacing: 1px;
+}
+
+
+
+
+.nav-link {
+  padding: 8px 15px;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+  color: #1E3A8A;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  background-color: #1E3A8A;
+  color: #fff;
+  border-color: #1E3A8A;
+}
+
+
+
+.navbar {
+  background: linear-gradient(to bottom, #ffffff, #f0f4f8);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.navbar {
+  position: relative;
+}
+.navbar:after {
+  content: "";
+  display: block;
+  height: 4px;
+  background: linear-gradient(to right, #1E3A8A, #3B82F6);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+
+
+
+.bg-gradient {
+  background: linear-gradient(to right, #1E3A8A, #3B82F6);
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #3B82F6, #1E3A8A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.feature {
+  width: 60px;
+  height: 60px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+
+
+
+.form-floating .form-control:focus {
+  border-color: #3B82F6;
+  box-shadow: 0 0 5px rgba(59, 130, 246, 0.5);
+}
+
+.btn-primary {
+  background-color: #3B82F6;
+  border: none;
+  border-radius: 25px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: #1E3A8A;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(59, 130, 246, 0.4);
+}
+
+
+
+.alert {
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.alert-success {
+  background-color: #D1FAE5;
+  color: #065F46;
+}
+
+.alert-danger {
+  background-color: #FEE2E2;
+  color: #991B1B;
+}
+
+
+
+/* Contenedor del botón de enviar alineado a la derecha */
+.submit-button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
