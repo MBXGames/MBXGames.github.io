@@ -11736,29 +11736,30 @@ html {
 
 
 
-/* Estilo para la línea separadora */
-/* Línea separadora debajo del texto de la marca */
+/* ------------------------------- */
+/* ESTILO PARA LA LINEA SEPARADORA */
+/* ------------------------------- */
 .separator-line {
-    width: 100%; /* Ocupa todo el ancho del contenedor del texto */
-    height: 4px; /* Grosor de la línea */
-    background: linear-gradient(90deg, #1E3A8A, #3B82F6); /* Gradiente con los colores del proyecto */
-    margin-top: 5px; /* Espaciado entre el texto y la línea */
+    width: 100%;
+    height: 4px; 
+    background: linear-gradient(90deg, #0a0a0a, #0a0a0a); 
+    margin-top: 5px;
 }
+/* ------------------------------- */
+/* ESTILO PARA LA LINEA SEPARADORA */
+/* ------------------------------- */
 
 
 
-
-
-
-
-/* Clases específicas para la sección "Nosotros" */
+/* --------------------------------------- */
+/* ESTILO PARA EL APARTADO DESARROLLADORES */
+/* --------------------------------------- */
 .about-us {
   text-align: center;
   padding: 20px;
   font-family: 'Arial', sans-serif;
 }
 
-/* Contenedor del carrusel de "Nosotros" */
 .about-us .carousel-container {
   position: relative;
   max-width: 500px;
@@ -11768,20 +11769,17 @@ html {
   align-items: center;
 }
 
-/* Carrusel en "Nosotros" */
 .about-us .carousel {
   display: flex;
   transition: transform 0.5s ease-in-out;
   width: 100%;
 }
 
-/* Perfil individual */
 .about-us .profile {
   flex: 0 0 100%;
   text-align: center;
 }
 
-/* Imagen del integrante */
 .about-us .profile img {
   width: 250px;
   height: 250px;
@@ -11791,26 +11789,22 @@ html {
   transition: transform 0.3s ease;
 }
 
-/* Efecto de hover en la imagen */
 .about-us .profile img:hover {
   transform: scale(1.1);
 }
 
-/* Título del integrante */
 .about-us .profile h3 {
   margin-top: 15px;
   font-size: 1.5em;
   color: #333;
 }
 
-/* Descripción del integrante */
 .about-us .profile p {
   font-size: 1.1em;
   color: #666;
   margin-top: 10px;
 }
 
-/* Flechas */
 .about-us .arrow {
   background-color: #333;
   color: #fff;
@@ -11826,12 +11820,10 @@ html {
   z-index: 10;
 }
 
-/* Efecto hover en las flechas */
 .about-us .arrow:hover {
   background-color: #555;
 }
 
-/* Posición de las flechas */
 .about-us .left-arrow {
   left: 10px;
 }
@@ -11839,141 +11831,15 @@ html {
 .about-us .right-arrow {
   right: 10px;
 }
+/* --------------------------------------- */
+/* ESTILO PARA EL APARTADO DESARROLLADORES */
+/* --------------------------------------- */
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, sans-serif;
-}
-
-.portfolio-carousel {
-  position: relative;
-  width: 80%;
-  max-width: 800px;
-  margin: auto;
-  overflow: hidden;
-}
-
-.portfolio-carousel-images {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-}
-
-.portfolio-carousel-image {
-  width: 100%;
-  display: block;
-}
-
-button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  border: none;
-  font-size: 30px;
-  cursor: pointer;
-  padding: 10px;
-  z-index: 1;
-}
-
-button:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-.prev {
-  left: 10px;
-}
-
-.next {
-  right: 10px;
-}
-
-
-
-
-
-
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-.carousel-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  position: relative;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-.carousel {
-  display: flex;
-  gap: 20px;
-  transition: transform 0.5s ease-in-out;
-}
-.profile {
-  flex: 0 0 auto;
-  text-align: center;
-  width: 200px;
-}
-.profile img {
-  width: 100%;
-  border-radius: 50%;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-.profile img:hover {
-  transform: scale(1.1);
-}
-.arrow {
-  background: none;
-  border: none;
-  font-size: 2rem;
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #3B82F6;
-  z-index: 2;
-}
-.left-arrow {
-  left: 10px;
-}
-.right-arrow {
-  right: 10px;
-}
-
-
-
-
-
-
-
-
+/* ------------------------------- */
+/* ESTILO PARA EL APARTADO GALERIA */
+/* ------------------------------- */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -11982,7 +11848,7 @@ body {
 
 .carrusel {
   position: relative;
-  width: 80%; /* Ajusta el tamaño del carrusel */
+  width: 80%; 
   max-width: 600px;
   margin: auto;
   overflow: hidden;
@@ -12022,48 +11888,35 @@ button:hover {
 .next {
   right: 0;
 }
+/* ------------------------------- */
+/* ESTILO PARA EL APARTADO GALERIA */
+/* ------------------------------- */
 
 
 
-
-
-
-
-.text-gradient {
-  background: linear-gradient(to right, #3B82F6, #1E3A8A);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.navbar-brand {
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  letter-spacing: 1px;
-}
-
-
-
-
+/* ---------------------------------- */
+/* ESTILO PARA LA BARRA DE NAVEGACION */
+/* ---------------------------------- */
 .nav-link {
   padding: 8px 15px;
   border: 2px solid transparent;
   border-radius: 20px;
   transition: all 0.3s ease-in-out;
-  color: #1E3A8A;
+  color: #0a0a0a;
   font-weight: 600;
 }
 
 .nav-link:hover {
-  background-color: #1E3A8A;
-  color: #fff;
-  border-color: #1E3A8A;
+  background-color: #f5f5f5;
+  color: #b71c1c;
+  border-color: #b71c1c;
 }
-
 
 
 .navbar {
-  background: linear-gradient(to bottom, #ffffff, #f0f4f8);
+  background: linear-gradient(to top, #f44336, #ffffff); 
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
-
 
 
 .navbar {
@@ -12073,18 +11926,89 @@ button:hover {
   content: "";
   display: block;
   height: 4px;
-  background: linear-gradient(to right, #1E3A8A, #3B82F6);
+  background: linear-gradient(to right, #0a0a0a, #0a0a0a);
   width: 100%;
   position: absolute;
   bottom: 0;
   left: 0;
 }
 
+nav.navbar .navbar-brand span {
+  background: linear-gradient(to left, #0a0a0a, #0a0a0a, #0a0a0a);
+  -webkit-background-clip: text;
+}
+/* ---------------------------------- */
+/* ESTILO PARA LA BARRA DE NAVEGACION */
+/* ---------------------------------- */
+
+
+
+/* ----------------------------- */
+/* ESTILO PARA LA BARRA INFERIOR */
+/* ----------------------------- */
+footer {
+  padding: 1rem;
+  margin-top: auto;
+  background: linear-gradient(to bottom, #f44336, #ffffff);
+  border-top: 4px solid #000000; 
+}
+
+footer .container {
+  color: black;
+}
+
+footer .small {
+  color: #000;
+}
+
+footer .small:hover {
+  color: #d32f2f; 
+}
+/* ----------------------------- */
+/* ESTILO PARA LA BARRA INFERIOR */
+/* ----------------------------- */
+
+
+
+/* ------------------------- */
+/* ESTILO PARA EL ENCABEZADO */
+/* ------------------------- */
+.encabezado {
+  background-color: #ffcdc9;
+  color: black;
+}
+
+.encabezado h1, .encabezado p {
+  color: black;
+}
+/* ------------------------- */
+/* ESTILO PARA EL ENCABEZADO */
+/* ------------------------- */
+
+
+
+/* ---------------------- */
+/* ESTILO PARA LOS ICONOS */
+/* ---------------------- */
+.icon-gradient {
+  background: linear-gradient(to right, #f44336, #000000);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 2rem;
+}
+/* ---------------------- */
+/* ESTILO PARA LOS ICONOS */
+/* ---------------------- */
+
+
+
+
+
 
 
 
 .bg-gradient {
-  background: linear-gradient(to right, #1E3A8A, #3B82F6);
+  background: linear-gradient(to right, #0a0a0a, #0a0a0a);
   color: white;
   padding: 50px 0;
   text-align: center;
